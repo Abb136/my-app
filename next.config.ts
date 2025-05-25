@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import { hostname } from "node:os";
 
 const nextConfig: NextConfig = {
   images: {
@@ -7,7 +8,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'raw.githubusercontent.com',
       },
-      new URL('https://pohcdn.com'),
+      {
+        protocol: 'https',
+        hostname:'pohcdn.com',
+      },
     ],
   },
 };
