@@ -12,5 +12,6 @@ return <>hello world,
 
 <h1>Hadoken</h1>
 <Image alt="tttt" src={'https://raw.githubusercontent.com/pmndrs/zustand/HEAD/docs/bear.jpg'} width={250} height={250}/>
- {x.movie}</>
+ {x.movie}
+ </>
 }   

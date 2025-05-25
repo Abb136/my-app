@@ -1,3 +1,8 @@
 export default function Page() {
-return <>hello world</>
+    const result = 5+3
+return <>
+hello world {result}
+ </>
+
+
 }
